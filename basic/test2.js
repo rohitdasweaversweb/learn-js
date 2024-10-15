@@ -19,5 +19,17 @@ let valueBollean=String(IsLoogedin)
 /****************operations*************/
 // console.log("2">1);
 // console.log(null>0);
-console.log(null== 0);
+// console.log(null== 0);
 
+const Id=Symbol('123');
+const AccountID=Symbol('123');
+
+// console.log(Id== AccountID);
+
+const myFunction= function(){
+    console.log(`hello world`);
+    
+}
+console.log(myFunction);
+
+console.log(typeof myFunction);
