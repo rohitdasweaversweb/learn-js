@@ -25,7 +25,13 @@ function handleObject(objhandle){
     
 }
 
-handleObject({
-    userName:"Sam",
-    Role:"SdE"
-})
+// handleObject({
+//     userName:"Sam",
+//     Role:"SdE"
+// })
+
+function calculatedprice(...num){
+    return num;
+}
+
+// console.log(calculatedprice(200,800))
