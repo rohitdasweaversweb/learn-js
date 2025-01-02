@@ -25,6 +25,19 @@
 
 // person.talk();
 
-const color=["Red","Green","Blue"];
-const items=color.map(function(colors){return `<li>${colors}</li>`});
-console.log(items);
+/*********************Map function */
+// const color=["Red","Green","Blue"];
+// const items=color.map(colors=>`<li>${colors}</li>`);
+// console.log(items);
+
+
+/*********Object destructing synstax*********** */
+const address={
+    street:'MB ROAD',
+    city:'Birati',
+    country:'INDIA'
+}
+
+const {street:st,city:ct,country:cy}=address;
+
+console.log(st);
