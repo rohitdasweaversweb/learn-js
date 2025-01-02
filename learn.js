@@ -32,12 +32,32 @@
 
 
 /*********Object destructing synstax*********** */
-const address={
-    street:'MB ROAD',
-    city:'Birati',
-    country:'INDIA'
-}
+// const address={
+//     street:'MB ROAD',
+//     city:'Birati',
+//     country:'INDIA'
+// }
 
-const {street:st,city:ct,country:cy}=address;
+// const {street:st,city:ct,country:cy}=address;
 
-console.log(st);
+// console.log(st);
+
+
+/***********Spread operator*********** */
+// const first={name:'Rohit'}
+// const second ={jobrole:'SDE'}
+
+// const combined={...first,...second,location:'kolkata'};
+// console.log(combined);
+
+/**********class in js********* */
+// import { Teacher } from "./teacher.js";
+// const Result= new Teacher('Shimanta','FOT');
+// // console.log(Result);
+// Result.walk();
+// Result.tech();
+// console.table(Result);
+
+
+
+
