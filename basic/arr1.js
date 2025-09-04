@@ -1,13 +1,18 @@
 const numbers = [1, 2, 3, 4, 5]
+const numbers1 = [5,6,7,8,9,10]
+
 // console.log(numbers.length);
 // numbers.push(6)
 // numbers.pop()
 // numbers.unshift(25)
 // numbers.shift()
 const num2=numbers.slice(1,3)
-console.log("B",num2)    
+// console.log("B",num2)    
 
 const num3=numbers.splice(1,1,"Graps");
-console.log("C",num3)
-console.log(typeof numbers);
+// console.log("C",num3)
+// console.log(typeof numbers);
+
+const cnNum=[...numbers1,...numbers];
+console.log(cnNum);
 
