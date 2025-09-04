@@ -71,4 +71,4 @@ console.log(example(2, 3));
 
 const example1 = () => ({ Bookname: "JavaScript", price: 299 });
 
-console.log(example1());
+console.log(example1()); 
